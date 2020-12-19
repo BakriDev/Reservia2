@@ -1,0 +1,419 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  background-color: ;
+}
+
+
+*{
+
+  box-sizing: border-box;
+}
+
+
+
+
+
+#logo img {
+width: 10%;
+
+}
+
+nav ul
+{
+list-style-type: none;
+display: flex;
+margin-right: 15px
+}
+
+nav a
+{
+  padding-top: 20px;
+  font-size: 0.8em;
+  text-decoration: none;
+  color: rgb(87, 85, 85);
+  margin-right: 40px;
+  
+}
+
+nav a:hover
+{
+  color: #0065FC;
+    font-weight: bold;
+    background: transparent;
+    transform: scale(1.03);
+    border-top: blue solid 2px;     
+    
+}
+
+.nav{
+font-size: 1.2em;
+
+}
+
+
+
+
+h1{
+font-size: 2em;
+
+}
+
+
+.barrederecherche{
+
+border-right: none;
+border-left: none;
+border-top: #F2F2F2 1px solid;
+border-bottom: #F2F2F2 1px solid;
+padding: 0 1.5em;
+width: 15em;
+font-size: 1em;
+height: 3.5em;
+
+}
+
+.boutonrecherche{
+background-color: #0065FC;
+color: white;
+border: none;
+border-radius: 0 1rem 1em 0;
+padding: 0 1.5em;
+font-size: 1em;
+cursor: pointer;
+height: 3.5em;
+
+
+
+}
+
+.recherche{
+display: flex;
+overflow: auto;
+margin: 0 0 0 10px;  
+}
+
+
+
+
+
+.lignefiltres{
+display: flex;
+margin-left: 10px;
+padding-top: 20px;
+background-color:;
+justify-content: space-between ;
+width: 700px;
+ 
+}
+
+
+.ligneinfo span {
+border: 0.15rem solid rgb(214, 201, 201);
+border-radius: 50%;
+padding: 0.4em;
+ margin: 0.5em; 
+}
+
+
+
+.logoinfo i{
+
+border: 5px solid red;
+  
+}
+
+.icone i{
+
+background-color: rgb(205, 212, 201);
+border: 0px solid ;
+padding: 20px;
+border-radius:0.8rem 0 0 0.5rem ;
+color: black;
+}
+
+
+.blocmain{
+
+  background-color: rgb(214, 211, 211);
+ border-radius: 1em;
+  width: 700px;
+  height: 500px;
+}
+
+
+.fas{
+  color: #0065FC;
+  }
+
+
+.filtres filtre{
+
+font-size: em;
+margin: 2.1em 2em 2em 0;
+}
+
+ 
+
+
+
+.economique{
+border: 2px grey solid;
+border-radius: 5em;
+height: 40px;
+padding-right: 1.5em;
+padding-left: 0.5em;
+font-weight: 900;
+
+
+}
+
+.familial{
+  border: 2px grey solid;
+  border-radius: 6em;
+  height: 40px;
+  padding-right: 1.5em;
+padding-left: 0.5em;
+font-weight: 900;
+  }
+
+.romantique{
+    border: 2px grey solid;
+    border-radius: 5em;
+    height: 40px;
+    padding-right: 1.5em;
+    padding-left: 0.5em;
+    font-weight: 900;
+    }
+
+.animaux{
+      border: 2px grey solid;
+      border-radius: 5em;
+      height: 40px;
+      padding-right: 2rem;
+  
+  font-weight: 900;
+      }
+
+.lignefiltres i {
+  content: "\f53a";
+  color: blue;
+  border-radius: 15em;
+  padding: 10px;
+  background: #DEEBFF;
+  margin-top: px;
+  margin-left: -4.5px;
+  
+        }
+
+.logoinfo i {
+
+border: 2px grey;
+
+}        
+
+
+.hebergementetpopulaire {
+  display: flex;
+  justify-content: space-between;
+  width: 94%;
+  }
+
+
+.hebergement{
+  background-color: #F2F2F2;
+  border-radius: 1.25rem;
+  width: 60%;
+  height: 50%;
+}
+
+.hbgtitre{
+  margin-left: 30px;
+}
+
+.marseille
+{
+display: flex;
+flex-wrap: wrap;
+align-content: space-around;
+justify-content: space-around;
+padding: 10px;
+}
+
+.hbg{
+background-color: white;
+border-radius: 1.25rem;
+box-shadow: 0 0 16px grey;
+cursor: pointer;
+}
+
+a{
+text-decoration: none;
+color: black;
+}
+
+.hotel{
+border-radius: 1.25em 1.25em 0em 0em;
+width: 250px;
+height: 120px;
+}
+
+a figcaption{
+
+color: black;
+font-size: 1.1em;
+font-weight: bold;
+}
+
+.etoiles{
+  margin-left: 1.1em;
+  margin-top: -1em;
+
+}
+
+
+.hbg{
+
+margin:0.8em;
+padding:0.5em;
+
+
+}
+
+
+
+.hbg p{
+
+margin: 2px 0 2px 10px;
+}
+
+ .etoilegris i{
+color: gray;
+
+ } 
+
+ .afficherplus{
+
+  font-size: 1.2em;
+  margin-right: 38em;
+
+ }
+
+ /* Aside Les plus populaires debut*/
+
+
+
+ .fas.fa-chart-line{
+  color: black;
+  padding-left: 10em;
+  }
+
+
+.plusPopulaires{
+
+background-color: #F2F2F2;
+border-radius: 1.25rem;
+width: 20%;
+}
+
+h4{
+  margin-left: 18px;
+  margin-bottom: 10px;
+
+}
+
+
+
+.blockPopu{
+display: flex;
+background-color: white;
+border-radius:1.3em;
+margin:1em; 
+}
+
+
+.blockPopu a {
+
+display: flex;
+
+}
+
+.texteplusPopulaires h3{
+
+margin: 20px 0px 0px 8px;
+
+}
+
+.imageplusPopulaires{
+
+width: 140px;
+height: 140px;
+border-radius: 1.25em 0 0 1.25em;
+object-fit: cover;
+padding: 0.3em;
+background-color: white;
+
+
+}
+
+
+
+
+.star{
+
+ margin: 10px 0 0 5px;
+}
+
+.texteplusPopulaires p{
+
+margin: 10px 0 0 8px;
+
+}
+
+
+
+
+  /* Aside Les plus populaires Fin*/
+
+
+  /* Activités */
+
+.activitesTitre{
+color: black;
+font-size: 1.3em;
+font-weight: 600;
+
+}
+
+
+
+.activites1image{
+width: 300px;
+height: 440px;
+object-fit: cover;
+}
+
+.blockactivites1{
+  background-color: white;
+  padding: 1em ; 
+ border-radius: 5em;
+  box-shadow: 0px 2px 5px gray;
+}
+
+
+
+
+footer{
+
+background-color: #F2F2F2;
+display: flex;
+justify-content: space-around;
+padding-right: 5em;
+
+}
+
+
+h5{
+  font-size: 1em;
+}
+
