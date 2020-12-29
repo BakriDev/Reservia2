@@ -10,7 +10,13 @@ header{
   box-sizing: border-box;
 }
 
-
+body{
+ font-family: raleway, sans-serif;
+ @font-face {
+  font-family: 'raleway';
+  src: url('D:\OpenClassroom\Reservia\Raleway');
+}
+}
 
 
 
@@ -48,7 +54,7 @@ nav a:hover
 
 .nav{
 font-size: 1.2em;
-
+margin-right: 4em;
 }
 
 
@@ -82,7 +88,7 @@ padding: 0 1.5em;
 font-size: 1em;
 cursor: pointer;
 height: 3.5em;
-
+font-weight: bold;
 
 
 }
@@ -93,35 +99,24 @@ overflow: auto;
 margin: 0 0 0 10px;  
 }
 
+.filtres p{
+font-weight: bold;
 
-
+}
 
 
 .lignefiltres{
 display: flex;
 margin-left: 10px;
-padding-top: 20px;
-background-color:;
-justify-content: space-between ;
-width: 700px;
- 
-}
+padding-top: 40px;
 
-
-.ligneinfo span {
-border: 0.15rem solid rgb(214, 201, 201);
-border-radius: 50%;
-padding: 0.4em;
- margin: 0.5em; 
 }
 
 
 
-.logoinfo i{
 
-border: 5px solid red;
-  
-}
+
+
 
 .icone i{
 
@@ -131,6 +126,12 @@ padding: 20px;
 border-radius:0.8rem 0 0 0.5rem ;
 color: black;
 }
+
+p{
+  margin-bottom: 2em;
+}
+
+
 
 
 .blocmain{
@@ -153,7 +154,22 @@ font-size: em;
 margin: 2.1em 2em 2em 0;
 }
 
- 
+.fas.fa-info{
+
+  border: 0.15rem solid rgb(214, 201, 201);
+  border-radius: 50%;
+  padding: 0.3em;
+  margin: 0.5em;
+  width: 30px;
+  display: inline-block;
+  height: 30px;
+  text-align: center;
+  text-align-last: center;
+  vertical-align: middle;
+}
+
+
+}
 
 
 
@@ -163,7 +179,7 @@ border-radius: 5em;
 height: 40px;
 padding-right: 1.5em;
 padding-left: 0.5em;
-font-weight: 900;
+font-weight: 700;
 
 
 }
@@ -174,7 +190,7 @@ font-weight: 900;
   height: 40px;
   padding-right: 1.5em;
 padding-left: 0.5em;
-font-weight: 900;
+font-weight: 700;
   }
 
 .romantique{
@@ -183,7 +199,7 @@ font-weight: 900;
     height: 40px;
     padding-right: 1.5em;
     padding-left: 0.5em;
-    font-weight: 900;
+    font-weight: 700;
     }
 
 .animaux{
@@ -191,13 +207,12 @@ font-weight: 900;
       border-radius: 5em;
       height: 40px;
       padding-right: 2rem;
-  
-  font-weight: 900;
+      font-weight: 700;
       }
 
 .lignefiltres i {
   content: "\f53a";
-  color: blue;
+  color: #0065FC;
   border-radius: 15em;
   padding: 10px;
   background: #DEEBFF;
@@ -205,12 +220,37 @@ font-weight: 900;
   margin-left: -4.5px;
   
         }
+.touslesfiltres span{
+
+  border: 1.8px grey solid;
+      border-radius: 5em;
+      height: 40px;
+      padding-right: 2rem;
+      padding-left: 0.14rem;
+      font-weight: 700;
+      display: inline-block;
+      margin-right: 2.5rem;
+}
+
+.touslesfiltres{
+
+margin-left: 10rem;
+
+
+}
 
 .logoinfo i {
 
 border: 2px grey;
 
 }        
+
+
+.touslesfiltres i{
+
+background-color: ;
+
+}
 
 
 .hebergementetpopulaire {
@@ -256,6 +296,7 @@ color: black;
 border-radius: 1.25em 1.25em 0em 0em;
 width: 250px;
 height: 120px;
+object-fit: cover;
 }
 
 a figcaption{
@@ -266,7 +307,6 @@ font-weight: bold;
 }
 
 .etoiles{
-  margin-left: 1.1em;
   margin-top: -1em;
 
 }
@@ -284,7 +324,7 @@ padding:0.5em;
 
 .hbg p{
 
-margin: 2px 0 2px 10px;
+margin: 2px 0 2px 0px;
 }
 
  .etoilegris i{
@@ -347,7 +387,7 @@ margin: 20px 0px 0px 8px;
 .imageplusPopulaires{
 
 width: 140px;
-height: 140px;
+height: 170px;
 border-radius: 1.25em 0 0 1.25em;
 object-fit: cover;
 padding: 0.3em;
@@ -378,6 +418,25 @@ margin: 10px 0 0 8px;
 
   /* Activités */
 
+
+
+
+
+.touslesblocksactivites{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+  height: 496px;
+  margin-right: 90px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+
+}
+
+
+
 .activitesTitre{
 color: black;
 font-size: 1.3em;
@@ -395,11 +454,90 @@ object-fit: cover;
 
 .blockactivites1{
   background-color: white;
-  padding: 1em ; 
- border-radius: 5em;
-  box-shadow: 0px 2px 5px gray;
+  border-radius: 1.25rem;
+  box-shadow: 0 0 16px #0000002e;
+
 }
 
+
+.blockactivites2{
+  background-color: white;
+  border-radius: 1.25rem;
+  box-shadow: 0 0 16px  #0000002e;
+
+}
+
+.blockactivites3{
+  background-color: white;
+  border-radius: 1.25rem;
+  box-shadow: 0 0 16px  #0000002e;
+
+}
+.activites2image{
+
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 1.25rem 1.25rem 0 0;
+
+}
+
+.activites3image{
+
+  width: 300px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 1.25rem 1.25rem 0 0;
+
+}
+
+.activites4image{
+
+  width: 300px;
+  height: 440px;
+  object-fit: cover;
+  border-radius: 1.25rem 1.25rem 0 0;
+
+}
+.blockactivites4{
+  background-color: white;
+  border-radius: 1.25rem;
+  box-shadow: 0 0 16px #0000002e;
+
+}
+
+.activites5image{
+
+  width: 300px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 1.25rem 1.25rem 0 0;
+
+}
+
+.blockactivites5{
+  background-color: white;
+  border-radius: 1.25rem;
+  box-shadow: 0 0 16px  #0000002e;
+
+}
+
+
+.activites6image{
+
+  width: 300px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 1.25rem 1.25rem 0 0;
+
+}
+
+.blockactivites6{
+  background-color: white;
+  border-radius: 1.25rem;
+  box-shadow: 0 0 16px  #0000002e;
+
+}
 
 
 
