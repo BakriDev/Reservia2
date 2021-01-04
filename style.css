@@ -12,10 +12,16 @@ header{
 
 body{
  font-family: raleway, sans-serif;
- @font-face {
+ 
   font-family: 'raleway';
   src: url('D:\OpenClassroom\Reservia\Raleway');
 }
+
+
+#bloc_page{
+
+display: ;
+justify-content: ;
 }
 
 
@@ -169,7 +175,7 @@ margin: 2.1em 2em 2em 0;
 }
 
 
-}
+
 
 
 
@@ -259,6 +265,11 @@ background-color: ;
   width: 94%;
   }
 
+  h2{
+
+font-size: 1em;
+
+  }
 
 .hebergement{
   background-color: #F2F2F2;
@@ -299,11 +310,11 @@ height: 120px;
 object-fit: cover;
 }
 
-a figcaption{
+h3{
 
 color: black;
 font-size: 1.1em;
-font-weight: bold;
+margin: 0em 0em 0em 0em;
 }
 
 .etoiles{
@@ -401,7 +412,7 @@ background-color: white;
 
 .star{
 
- margin: 10px 0 0 5px;
+ margin: 50px 0 0 5px;
 }
 
 .texteplusPopulaires p{
@@ -555,3 +566,9 @@ h5{
   font-size: 1em;
 }
 
+.plusPopulaires{
+
+
+
+
+}
