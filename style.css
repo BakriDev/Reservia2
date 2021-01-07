@@ -11,10 +11,10 @@ header{
 }
 
 body{
- font-family: raleway, sans-serif;
- 
-  font-family: 'raleway';
-  src: url('D:\OpenClassroom\Reservia\Raleway');
+font-family: raleway, sans-serif;
+font-family: 'raleway'; 
+margin-left: 5%;
+
 }
 
 
@@ -137,7 +137,10 @@ p{
   margin-bottom: 2em;
 }
 
-
+.afficherplus p{
+  margin-right: 130px;
+  font-weight: 700;
+}
 
 
 .blocmain{
