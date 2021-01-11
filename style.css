@@ -1,7 +1,7 @@
 header{
   display: flex;
   justify-content: space-between;
-  background-color: ;
+  
 }
 
 
@@ -18,23 +18,9 @@ margin-right: 6%;
 }
 
 
-#bloc_page{
-
-display: ;
-justify-content: ;
-}
-
-
 
 #logo img {
-width: 10%;
-}
-
-
-.inscrire{
-  
-color: red;
-
+width: 15%;
 }
 
 
@@ -54,6 +40,7 @@ nav a
   margin-right: 40px;
   
 }
+
 
 nav a:hover
 {
@@ -89,7 +76,6 @@ padding: 0 1.5em;
 width: 15em;
 font-size: 1em;
 height: 3.5em;
-
 }
 
 .boutonrecherche{
@@ -102,19 +88,11 @@ font-size: 1em;
 cursor: pointer;
 height: 3.5em;
 font-weight: bold;
-
-
 }
 
-.recherche{
-display: flex;
-overflow: auto;
-margin: 0 0 0 10px;  
-}
 
 .filtres p{
 font-weight: bold;
-
 }
 
 
@@ -124,11 +102,6 @@ margin-left: 10px;
 padding-top: 40px;
 
 }
-
-
-
-
-
 
 
 .icone i{
@@ -151,11 +124,10 @@ p{
 
 
 .blocmain{
-
-  background-color: rgb(214, 211, 211);
- border-radius: 1em;
-  width: 700px;
-  height: 500px;
+background-color: rgb(214, 211, 211);
+border-radius: 1em;
+width: 700px;
+height: 500px;
 }
 
 
@@ -164,11 +136,6 @@ p{
   }
 
 
-.filtres filtre{
-
-font-size: em;
-margin: 2.1em 2em 2em 0;
-}
 
 .fas.fa-info{
 
@@ -185,47 +152,6 @@ margin: 2.1em 2em 2em 0;
 }
 
 
-
-
-
-
-.economique{
-border: 2px grey solid;
-border-radius: 5em;
-height: 40px;
-padding-right: 1.5em;
-padding-left: 0.5em;
-font-weight: 700;
-
-
-}
-
-.familial{
-  border: 2px grey solid;
-  border-radius: 6em;
-  height: 40px;
-  padding-right: 1.5em;
-padding-left: 0.5em;
-font-weight: 700;
-  }
-
-.romantique{
-    border: 2px grey solid;
-    border-radius: 5em;
-    height: 40px;
-    padding-right: 1.5em;
-    padding-left: 0.5em;
-    font-weight: 700;
-    }
-
-.animaux{
-      border: 2px grey solid;
-      border-radius: 5em;
-      height: 40px;
-      padding-right: 2rem;
-      font-weight: 700;
-      }
-
 .lignefiltres i {
   content: "\f53a";
   color: #0065FC;
@@ -234,8 +160,10 @@ font-weight: 700;
   background: #DEEBFF;
   margin-top: px;
   margin-left: -4.5px;
-  
         }
+
+
+        
 .touslesfiltres span{
 
   border: 1.8px rgb(223, 223, 223) solid;
@@ -250,23 +178,10 @@ font-weight: 700;
 
 .touslesfiltres{
 
-margin-left: 10rem;
-
-
-}
-
-.logoinfo i {
-
-border: 2px grey;
-
-}        
-
-
-.touslesfiltres i{
-
-background-color: ;
+margin-left: 9rem;
 
 }
+
 
 
 .hebergementetpopulaire {
@@ -276,24 +191,22 @@ background-color: ;
   }
 
   h2{
-
 font-size: 1em;
+ }
 
-  }
 
 .hebergement{
   background-color: #F2F2F2;
   border-radius: 1.25rem;
   width: 68%;
-  height: 50%;
+  height: 51%;
 }
 
 .hbgtitre{
   margin-left: 30px;
 }
 
-.marseille
-{
+.marseille{
 display: flex;
 flex-wrap: wrap;
 align-content: space-around;
@@ -306,6 +219,8 @@ background-color: white;
 border-radius: 1.25rem;
 box-shadow: 0 0 16px grey;
 cursor: pointer;
+margin:0.8em;
+padding:0.2em
 }
 
 a{
@@ -320,8 +235,8 @@ height: 150px;
 object-fit: cover;
 }
 
-h3{
 
+h3{
 color: black;
 font-size: 1.1em;
 margin: 0em 0em 0em 0em;
@@ -329,22 +244,10 @@ margin: 0em 0em 0em 0em;
 
 .etoiles{
   margin-top: -1em;
-
 }
-
-
-.hbg{
-
-margin:0.8em;
-padding:0.2em;
-
-
-}
-
 
 
 .hbg p{
-
 margin: 2px 0 2px 0px;
 }
 
@@ -362,8 +265,6 @@ color: gray;
 
  /* Aside Les plus populaires debut*/
 
-
-
  .fas.fa-chart-line{
   color: black;
   padding-left: 15em;
@@ -371,23 +272,18 @@ color: gray;
 
 
 .plusPopulaires{
-
 background-color: #F2F2F2;
 border-radius: 1.25rem;
 width: 30%;
 }
 
+.plusPopulaires h2{
+  padding-left: 2em;
+  }
+
 h4{
   margin-left: 18px;
   margin-bottom: 10px;
-
-}
-
-.plusPopulaires h2{
-
-padding-left: 2em;
-
-
 }
 
 
@@ -399,17 +295,8 @@ margin:1em;
 margin-top: 2em;
 }
 
-
-.blockPopu a {
-
-display: flex;
-
-}
-
 .texteplusPopulaires h3{
-
 margin: 20px 0px 0px 8px;
-
 }
 
 .imageplusPopulaires{
@@ -419,27 +306,15 @@ height: 170px;
 border-radius: 1.25em 0 0 1.25em;
 object-fit: cover;
 padding: 0.3em;
-background-color: white;
-
-
 }
 
-
-
-
 .star{
-
- margin: 50px 0 0 5px;
+ margin: 70px 0 0 15px;
 }
 
 .texteplusPopulaires p{
-
-margin: 10px 0 0 8px;
-
+margin: 10px 0 0 15px;
 }
-
-
-
 
   /* Aside Les plus populaires Fin*/
 
@@ -464,15 +339,11 @@ margin: 10px 0 0 8px;
 }
 
 
-
 .activitesTitre{
 color: black;
 font-size: 1.3em;
 font-weight: 600;
-
 }
-
-
 
 .activites1image{
 width: 300px;
@@ -484,7 +355,6 @@ object-fit: cover;
   background-color: white;
   border-radius: 1.25rem;
   box-shadow: 0 0 16px #0000002e;
-
 }
 
 
@@ -492,50 +362,42 @@ object-fit: cover;
   background-color: white;
   border-radius: 1.25rem;
   box-shadow: 0 0 16px  #0000002e;
-
 }
 
 .blockactivites3{
   background-color: white;
   border-radius: 1.25rem;
   box-shadow: 0 0 16px  #0000002e;
-
 }
-.activites2image{
 
+.activites2image{
   width: 300px;
   height: 200px;
   object-fit: cover;
   border-radius: 1.25rem 1.25rem 0 0;
-
 }
 
 .activites3image{
-
   width: 300px;
   height: 100px;
   object-fit: cover;
   border-radius: 1.25rem 1.25rem 0 0;
-
 }
 
 .activites4image{
-
   width: 300px;
   height: 440px;
   object-fit: cover;
   border-radius: 1.25rem 1.25rem 0 0;
-
 }
+
 .blockactivites4{
   background-color: white;
   border-radius: 1.25rem;
   box-shadow: 0 0 16px #0000002e;
-
 }
 
 .activites5image{
-
   width: 300px;
   height: 100px;
   object-fit: cover;
@@ -547,35 +409,29 @@ object-fit: cover;
   background-color: white;
   border-radius: 1.25rem;
   box-shadow: 0 0 16px  #0000002e;
-
 }
 
 
 .activites6image{
-
   width: 300px;
   height: 100px;
   object-fit: cover;
   border-radius: 1.25rem 1.25rem 0 0;
-
 }
 
 .blockactivites6{
   background-color: white;
   border-radius: 1.25rem;
   box-shadow: 0 0 16px  #0000002e;
-
 }
 
 
 
 footer{
-
 background-color: #F2F2F2;
 display: flex;
 justify-content: space-around;
 padding-right: 5em;
-
 }
 
 
@@ -583,9 +439,9 @@ h5{
   font-size: 1em;
 }
 
-.plusPopulaires{
 
+li {
 
-
-
+  color: blue;
 }
+
