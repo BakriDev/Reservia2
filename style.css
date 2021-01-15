@@ -13,8 +13,9 @@ header{
 body{
 font-family: 'raleway'; 
 margin-left: 5%;
-margin-right: 6%;
+margin-right: 4%;
 }
+
 
 a{
   text-decoration: none;
@@ -123,6 +124,12 @@ padding: 0 1.5em;
 font-size: 1em;
 cursor: pointer;
 height: 3.5em;
+font-weight: bold;
+}
+
+::placeholder{
+
+color: rgb(0, 0, 0);
 font-weight: bold;
 }
 
@@ -264,7 +271,7 @@ padding:0.2em
 
 a{
 
-color:;
+color:black ;
 }
 
 .hotel{
@@ -278,17 +285,20 @@ object-fit: cover;
 h3{
 color: black;
 font-size: 1.1em;
-margin: 0em 0em 0em 0em;
+margin: 0em 0em 0em 15px;
 }
 
 .etoiles{
-  margin-top: -1em;
+  
+  margin:  0em 35px 0px 15px;
+  padding-bottom: 15px;
 }
 
 
 .hbg p{
-margin: 2px 0 2px 0px;
+margin: 0px 0 0px 15px;
 color: black;
+font-size: 15px;
 }
 
  .etoilegris i{
@@ -322,8 +332,7 @@ width: 30%;
   }
 
 h4{
-  margin-left: 18px;
-  margin-bottom: 10px;
+  padding-top: 25px;
 }
 
 
@@ -372,12 +381,28 @@ margin: 10px 0 0 15px;
   align-content: space-between;
   justify-content: space-between;
   height: 496px;
-  margin-right: 90px;
-  margin-top: 50px;
+  margin-right: 70px;
   margin-bottom: 100px;
+  margin-left: -40px;
+}
+
+figure{
+
+background-color: white;
+border-radius: 1.25rem;
+box-shadow: 0 1px 2px #cac8c8;
+cursor: pointer;
+padding-bottom: 15px;
 
 }
 
+figcaption{
+
+  padding-left: 15px;
+  padding-top: 15px;
+  font-weight: bold;
+
+}
 
 .activitesTitre{
 color: black;
@@ -387,28 +412,16 @@ font-weight: 600;
 
 .activites1image{
 width: 300px;
-height: 440px;
+height: 415px;
 object-fit: cover;
-}
-
-.blockactivites1{
-  background-color: white;
-  border-radius: 1.25rem;
-  box-shadow: 0 0 16px #0000002e;
+border-radius: 1.25rem 1.25rem 0 0;
 }
 
 
-.blockactivites2{
-  background-color: white;
-  border-radius: 1.25rem;
-  box-shadow: 0 0 16px  #0000002e;
-}
 
-.blockactivites3{
-  background-color: white;
-  border-radius: 1.25rem;
-  box-shadow: 0 0 16px  #0000002e;
-}
+
+
+
 
 .activites2image{
   width: 300px;
@@ -419,23 +432,19 @@ object-fit: cover;
 
 .activites3image{
   width: 300px;
-  height: 100px;
+  height: 125px;
   object-fit: cover;
   border-radius: 1.25rem 1.25rem 0 0;
 }
 
 .activites4image{
   width: 300px;
-  height: 440px;
+  height: 415px;
   object-fit: cover;
   border-radius: 1.25rem 1.25rem 0 0;
 }
 
-.blockactivites4{
-  background-color: white;
-  border-radius: 1.25rem;
-  box-shadow: 0 0 16px #0000002e;
-}
+
 
 .activites5image{
   width: 300px;
@@ -445,25 +454,14 @@ object-fit: cover;
 
 }
 
-.blockactivites5{
-  background-color: white;
-  border-radius: 1.25rem;
-  box-shadow: 0 0 16px  #0000002e;
-}
-
 
 .activites6image{
   width: 300px;
-  height: 100px;
+  height: 200px;
   object-fit: cover;
   border-radius: 1.25rem 1.25rem 0 0;
 }
 
-.blockactivites6{
-  background-color: white;
-  border-radius: 1.25rem;
-  box-shadow: 0 0 16px  #0000002e;
-}
 
 
 
@@ -478,17 +476,23 @@ padding-right: 5em;
 
 h5{
   font-size: 1em;
+  margin-bottom: 10px;
 }
 
 
-li {
-
-  color: blue;
-}
 
 .footer-links{
 list-style-type: none;
-line-height: 2em;
+line-height: 27px;
+text-decoration: none;
+
+}
+
+
+footer{
+
+color: black;
+
 }
 
 
@@ -500,6 +504,7 @@ line-height: 2em;
     margin:auto
   }
 
+  
   main{
     max-width: 100%;
     margin:auto;
@@ -513,6 +518,7 @@ margin: 1%;
 overflow: hidden;
 
   }
+
 
 
 }
