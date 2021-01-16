@@ -499,7 +499,16 @@ color: black;
 @media screen and (max-width:768px){
   
 
+body{
+
+width: 100%;
+
+
+}
+
+
   header{
+   
     max-width: 100%;
     margin:auto
   }
@@ -513,13 +522,21 @@ color: black;
 
   .lignefiltres{
 
-display: block;
-margin: 1%;
-overflow: hidden;
-
+    display: block;
+    margin: 1%;
+    overflow: hidden;
   }
 
+  #logo img{
+    width: 35%;
+    margin-top: 5%;
+  }
 
+  .h1{
+
+max-width: 100%;
+
+  }
 
 }
 
