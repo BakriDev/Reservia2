@@ -160,8 +160,8 @@ p{
   margin-bottom: 2em;
 }
 
-.afficherplus p{
-  margin-right: 150px;
+.afficherplus {
+  margin-right: 100px;
   font-weight: 700;
 }
 
