@@ -12,8 +12,8 @@ header{
 
 body{
 font-family: 'raleway'; 
-margin-left: 5%;
-margin-right: 4%;
+margin-left: 8%;
+margin-right: 5%;
 }
 
 
@@ -160,10 +160,7 @@ p{
   margin-bottom: 2em;
 }
 
-.afficherplus {
-  margin-right: 100px;
-  font-weight: 700;
-}
+
 
 
 .blocmain{
@@ -212,16 +209,17 @@ height: 500px;
   border: 1.8px rgb(223, 223, 223) solid;
       border-radius: 5em;
       height: 50px;
-      padding-right: 2rem;
+      padding-right: 3rem;
       padding-left: 0.14rem;
       font-weight: 700;
       display: inline-block;
       margin-right: 2.5rem;
+     font-size: 18px;
 }
 
 .touslesfiltres{
 
-margin-left: 9rem;
+margin-left: 2rem;
 
 }
 
@@ -285,18 +283,18 @@ object-fit: cover;
 h3{
 color: black;
 font-size: 1.1em;
-margin: 0em 0em 0em 15px;
+margin: 3px 10px 3px 15px;
 }
 
 .etoiles{
   
-  margin:  0em 35px 0px 15px;
+  margin:  5px 5px 0px 15px;
   padding-bottom: 15px;
 }
 
 
 .hbg p{
-margin: 0px 0 0px 15px;
+margin: 0px 0 5px 15px;
 color: black;
 font-size: 15px;
 }
@@ -306,11 +304,11 @@ color: gray;
 
  } 
 
- .afficherplus{
+ .more{
 
   font-size: 1.2em;
-  margin-right: 38em;
-
+  margin-right: 46em;
+  font-weight: 700
  }
 
  /* Aside Les plus populaires debut*/
@@ -340,8 +338,9 @@ h4{
 display: flex;
 background-color: white;
 border-radius:1.3em;
-margin:1em; 
 margin-top: 2em;
+margin-right: 2em;
+margin-left: 2em;
 }
 
 .texteplusPopulaires h3{
@@ -360,6 +359,16 @@ padding: 0.3em;
 .star{
  margin: 70px 0 0 15px;
 }
+
+.star:first-child{
+  margin: 90px;
+  background-color: red;
+
+}
+
+
+
+
 
 .texteplusPopulaires p{
 margin: 10px 0 0 15px;
@@ -398,10 +407,8 @@ margin: 10px 0 0 15px;
 
 figure{
 
-background-color: white;
 border-radius: 1.25rem;
-box-shadow: 0 1px 2px #cac8c8;
-cursor: pointer;
+box-shadow: 0 1px 10px #cac8c8;
 padding-bottom: 15px;
 
 }
