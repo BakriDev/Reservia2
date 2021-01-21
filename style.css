@@ -428,13 +428,23 @@ font-size: 1.3em;
 font-weight: 700;
 }
 
+/*test*/
+.activitesimage{
+  width: 18.45%;
+  object-fit: cover;
+  border-radius: 1.25rem 1.25rem 0 0;
+  }
+/*test*/
+
+
+/*test*/
 .activites1image{
 width: 300px;
 height: 415px;
 object-fit: cover;
 border-radius: 1.25rem 1.25rem 0 0;
 }
-
+/*test*/
 
 .activites2image{
   width: 300px;
@@ -501,6 +511,8 @@ line-height: 27px;
 text-decoration: none;
 
 }
+
+
 
 
 .aPropos{
