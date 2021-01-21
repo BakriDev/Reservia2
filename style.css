@@ -232,7 +232,8 @@ margin-left: 2rem;
   }
 
   h2{
-font-size: 1em;
+font-size: 22px;
+padding-top: 1em;
  }
 
 
@@ -315,7 +316,7 @@ color: gray;
 
  .fas.fa-chart-line{
   color: black;
-  padding-left: 15em;
+  padding-left: 7em;
   }
 
 
@@ -327,6 +328,7 @@ width: 30%;
 
 .plusPopulaires h2{
   padding-left: 2em;
+  
   }
 
 h4{
@@ -479,7 +481,8 @@ footer{
 background-color: #F2F2F2;
 display: flex;
 justify-content: space-around;
-padding-right: 5em;
+padding-right: 30em;
+color: black;
 
 }
 
@@ -487,6 +490,7 @@ padding-right: 5em;
 h5{
   font-size: 1em;
   margin-bottom: 10px;
+  margin-left: 40px;
 }
 
 
@@ -499,11 +503,21 @@ text-decoration: none;
 }
 
 
-footer{
+.aPropos{
 
-color: black;
+  margin-right: 18em;
+}
+
+
+.nosHebergements{
+
+padding-right: 18em;
 
 }
+
+
+
+
 
 
 @media screen and (max-width:768px){
