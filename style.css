@@ -415,14 +415,13 @@ margin: 10px 0 0 15px;
   align-content: space-between;
   justify-content: space-between;
   height: 496px;
-  margin-right: 70px;
   margin-bottom: 100px;
-  margin-left: -40px;
+  margin-right: 100px;
 }
 
 .blockactivites{
 
-  width: 19%;
+  width: 23%;
 
 }
 
@@ -451,40 +450,39 @@ font-size: 1.3em;
 font-weight: 700;
 }
 
-/*test*/
+
 .activitesimage{
-  width: 18.45%;
+  width: 100%;
   object-fit: cover;
   border-radius: 1.25rem 1.25rem 0 0;
   }
-/*test*/
 
 
-/*test*/
+
+
 .activites1image{
-width: 300px;
+
 height: 415px;
 object-fit: cover;
 border-radius: 1.25rem 1.25rem 0 0;
 }
-/*test*/
+
 
 .activites2image{
-  width: 300px;
+  
   height: 200px;
   object-fit: cover;
   border-radius: 1.25rem 1.25rem 0 0;
 }
 
 .activites3image{
-  width: 300px;
   height: 125px;
   object-fit: cover;
   border-radius: 1.25rem 1.25rem 0 0;
 }
 
 .activites4image{
-  width: 300px;
+
   height: 415px;
   object-fit: cover;
   border-radius: 1.25rem 1.25rem 0 0;
@@ -492,7 +490,7 @@ border-radius: 1.25rem 1.25rem 0 0;
 
 
 .activites5image{
-  width: 300px;
+
   height: 100px;
   object-fit: cover;
   border-radius: 1.25rem 1.25rem 0 0;
@@ -501,7 +499,6 @@ border-radius: 1.25rem 1.25rem 0 0;
 
 
 .activites6image{
-  width: 300px;
   height: 200px;
   object-fit: cover;
   border-radius: 1.25rem 1.25rem 0 0;
