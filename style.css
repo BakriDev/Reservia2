@@ -69,11 +69,12 @@ font-size: 1.2em;
 
 }
 
-.inscription {
+#inscription {
 
   padding-top: 20px;
   font-size: 1em;
   text-decoration: none;
+  color: #0065FC;
   
   
 }
@@ -560,8 +561,7 @@ padding-right: 18em;
 
 
 
-
-@media screen and (min-width: 375px) and (max-width: 1280px){
+@media screen (max-width: 500px){
   
 
 body{
@@ -617,7 +617,7 @@ background-color: none;
   margin: auto;
 }
 
-.touslesblocksactivite{
+.touslesblocksactivites{
 
 display: flex;
 flex-direction: column;
