@@ -22,7 +22,7 @@ a{
 }
 
 #logo img {
-width: 15%;
+width: 9em;
 }
 
 
@@ -43,7 +43,10 @@ nav a
   
 }
 
-
+.icone{
+  display: flex;
+  justify-content: flex-start;
+}
 
 .menu{
 
@@ -134,16 +137,15 @@ font-weight: bold;
 }
 
 
-.filtres p{
+.lignefiltres p{
 font-weight: bold;
 }
 
 
 .lignefiltres{
 display: flex;
-margin-left: 10px;
 padding-top: 40px;
-
+justify-content: flex-start;
 }
 
 
@@ -198,7 +200,6 @@ height: 500px;
   border-radius: 15em;
   padding: 15px;
   background: #DEEBFF;
-  margin-top: px;
   margin-left: -4.5px;
         }
 
@@ -260,7 +261,6 @@ padding-top: 1em;
 .marseille{
 display: flex;
 flex-wrap: wrap;
-align-content: space-around;
 justify-content: space-around;
 padding: 10px;
 }
@@ -298,7 +298,7 @@ object-fit: cover;
 
 h3{
 color: black;
-font-size: 1.1em;
+font-size: 1.4em;
 margin: 3px 10px 3px 15px;
 }
 
@@ -336,14 +336,17 @@ color: gray;
 
 
 .plusPopulaires{
+ display: flex; 
+ flex-direction: column;
 background-color: #F2F2F2;
 border-radius: 1.25rem;
 width: 30%;
 }
 
 .plusPopulaires h2{
-  padding-left: 2em;
-  
+  display: flex;
+  justify-content: space-around;
+  margin-left: 0.5em;
   }
 
 h4{
@@ -351,13 +354,14 @@ h4{
 }
 
 
-.blockPopu{
+.blockPopu a{
 display: flex;
 background-color: white;
 border-radius:1.3em;
 margin-top: 2em;
 margin-right: 2em;
 margin-left: 2em;
+
 }
 
 .blockPopu:hover{
@@ -370,7 +374,20 @@ margin-left: 2em;
 
 .texteplusPopulaires h3{
 margin: 20px 0px 0px 15px;
+font-size: 1.4em;
 }
+
+.texteplusPopulaires p{
+  margin-left: 1em;
+  margin-top: 6px;
+  margin-bottom: 3em;
+}
+
+
+.star{
+  margin-left: 1em;
+}
+
 
 .imageplusPopulaires{
 
@@ -381,23 +398,15 @@ object-fit: cover;
 padding: 0.3em;
 }
 
-.star{
- margin: 70px 0 0 15px;
-}
 
-.star:first-child{
-  margin: 90px;
-  background-color: red;
+.texteplusPopulaires{
+  display: flex;
+  flex-direction: column;
 
 }
 
 
 
-
-
-.texteplusPopulaires p{
-margin: 10px 0 0 15px;
-}
 
   /* Aside Les plus populaires Fin*/
 
@@ -413,7 +422,7 @@ margin: 10px 0 0 15px;
   flex-direction: column;
   flex-wrap: wrap;
   align-content: space-between;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 496px;
   margin-bottom: 100px;
   margin-right: 100px;
@@ -552,24 +561,25 @@ padding-right: 18em;
 
 
 
-@media screen and (max-width:768px){
+@media screen and (min-width: 375px) and (max-width: 1280px){
   
 
 body{
 
 width: 100%;
-
-
 }
 
-
-  header{
-   
-    max-width: 100%;
-    margin:auto
+  header{ 
+    display: flex;
+    height: 8em;
   }
 
-  
+
+#search{
+  width: 100%;
+  margin: auto;
+}
+
   main{
     max-width: 100%;
     margin:auto;
@@ -578,21 +588,49 @@ width: 100%;
 
   .lignefiltres{
 
-    display: block;
-    margin: 1%;
-    overflow: hidden;
-  }
-
-  #logo img{
-    width: 35%;
-    margin-top: 5%;
-  }
-
-  .h1{
-
-max-width: 100%;
+    display: flex;
+   flex-wrap: wrap;
 
   }
+
+  .hebergementetpopulaire{
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    
+
+  }
+
+.hebergement{
+background-color: none;
+
+}
+
+
+  .plusPopulaires{
+
+    width: 90%;
+  }
+
+.more{
+  margin: auto;
+}
+
+.touslesblocksactivite{
+
+display: flex;
+flex-direction: column;
+}
+
+#footer{
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+
 
 }
 

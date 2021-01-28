@@ -9,32 +9,32 @@
  <body>
   <div id="bloc_page">
   
-                        <!--début header modif3-->
+                        <!--début header -->
   
    <header> 
-    <div id="titre_principal">
       <div id="logo">
         <img src="images/logo/Reservia@3x.png" alt="logo du site">
-        <h1>Trouvez vos hébergement pour des vacances de rêve</h1>
       </div>
-      <p>En plein centre ville ou en pleine nature</p>
-    </div>
-
-    <div class="menu">
-    <nav class="nav">
-      <ul>
-        <li> <a href="#">Hébergements</a></li>
-        <li><a href="#">Activités</a></li>
-      </ul> 
-    </nav>
-    <span class="inscription">  <a href="#">S'inscrire</a></span>
-  </div>
+        <div class="menu">
+          <nav class="nav">
+            <ul>
+              <li> <a href="#">Hébergements</a></li>
+              <li><a href="#">Activités</a></li>
+            </ul> 
+          </nav>
+          <span class="inscription">  <a href="#">S'inscrire</a></span>
+      </div>
   </header>
+
+<section id="sousTitre">
+  <h1>Trouvez vos hébergement pour des vacances de rêve</h1>
+  <p>En plein centre ville ou en pleine nature</p>
+</section>
 
                       <!--fin du header-->
 
                       <!--Sous partie Recherche-->
- 
+ <section id="search">
  <form class="recherche" method="POST" action="#">
    <div class="icone">
       <i class="fas fa-map-marker-alt"></i>
@@ -42,15 +42,15 @@
       <input class="boutonrecherche" type="submit" value="Rechercher"/>      
     </div> 
  </form>
-
+</section>
                     <!-- Fin sous partie Recherche-->
 
                     <!-- Debut Filtres-->
 
  <div class="lignefiltres">
-  <div class="filtres">
+  
         <p>Filtres</p>
-  </div>
+  
     <div class="touslesfiltres">
       <span><i class="fas fa-money-bill-wave"></i> Economique</span>
       <span><i class="fas fa-child"></i> Familial</span>
@@ -191,38 +191,48 @@
                                     <!--Debut Aside-->
     
       <section class="plusPopulaires">
-        <a href="#">
+        
           <h2>Les plus populaires <i class="fas fa-chart-line"></i></h2>
-          <div class="blockPopu">
-            <img class="imageplusPopulaires" src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hotel le soleil du matin">
-              <div class="texteplusPopulaires">
-                <h3>Hôtel le soleil du matin</h3>
-                <p>Nuit à partir de 128€</p>
-                <div class="star">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i> 
-                  <i class="fas fa-star"></i> 
-                  <i class="fas fa-star"></i>
-                </div>
+          
+            <div class="blockPopu">
+                <a href="#">
+                  <img class="imageplusPopulaires" src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hotel le soleil du matin">
+                
+                    <div class="texteplusPopulaires">
+                      <h3>Hôtel le soleil du matin</h3>
+                      <p>Nuit à partir de 128€</p>
+                      <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i> 
+                        <i class="fas fa-star"></i> 
+                        <i class="fas fa-star"></i>
+                      </div>
+                       
+                  </div> 
+                </a>   
             </div>
-          </div>
-
-          <div class="blockPopu">
             
-            <img class="imageplusPopulaires" src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau chambre d'hôte">
-          <div class="texteplusPopulaires">
-          <h3>Au coeur de l'eau chambre d'hôtes</h3>
-          <p>Nuit à partir de 71€</p>
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i> 
-              <i class="fas fa-star"></i> 
-            <span class="etoilegris"><i class="fas fa-star"></i></span>
+
+            <div class="blockPopu">
+              <a href="#">
+                  <img class="imageplusPopulaires" src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau chambre d'hôte">
+                
+                  <div class="texteplusPopulaires">
+              <h3>Au coeur de l'eau chambre d'hôtes</h3>
+              <p>Nuit à partir de 71€</p>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i> 
+                <i class="fas fa-star"></i> 
+              <span class="etoilegris"><i class="fas fa-star"></i></span>
+              </div>
+              
             </div>
-          </div>
+        </a>
           </div>
 
         <div class="blockPopu">
+          <a href="#">
           <div>
             <img class="imageplusPopulaires" src="images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Tout Bleu et blanc">
           </div>
@@ -235,9 +245,10 @@
             <i class="fas fa-star"></i> 
             <span class="etoilegris"><i class="fas fa-star"></i></span>
           </div>
-        </div>
-        </div>
-      </a>
+          </div>
+        </a>
+          </div>
+        
       </section>
     
                             <!--Fin Aside-->
