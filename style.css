@@ -1,8 +1,15 @@
+
 header{
   display: flex;
   justify-content: space-between;
   
 }
+
+
+
+
+
+
 
 
 *{
@@ -21,8 +28,9 @@ a{
   text-decoration: none;
 }
 
-#logo img {
+#logo {
 width: 9em;
+align-self: flex-start;
 }
 
 
@@ -52,7 +60,12 @@ nav a
 
 display: flex;
 }
+.fullmenu{
 
+display: flex;
+justify-content: flex-end;
+
+}
 
 nav a:hover
 {
@@ -559,78 +572,109 @@ padding-right: 18em;
 
 
 
-
-
-@media screen (max-width: 500px){
+@media screen and (max-width: 700px){
   
 
-body{
 
-width: 100%;
-}
-
-  header{ 
-    display: flex;
-    height: 8em;
+  
+    header{ 
+      
+      flex-wrap: wrap;
+      position: relative;
   }
-
-
-#search{
-  width: 100%;
-  margin: auto;
-}
-
-  main{
-    max-width: 100%;
-    margin:auto;
-    display: block; 
-  }
-
-  .lignefiltres{
-
-    display: flex;
-   flex-wrap: wrap;
-
-  }
-
-  .hebergementetpopulaire{
-
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column-reverse;
     
+#logo{
 
+  width: 7em;
+}
+
+
+  #inscription{
+
+    position:absolute;
+    right:-1em;
+    top:0;
   }
 
-.hebergement{
-background-color: none;
+
+  nav a:hover {
+  color: #0065FC;
+    font-weight: bold;
+    background: transparent;
+    transform: scale(1.03);
+    border-top: none;
+    border-bottom:  #0065FC;
+}
+  
+
+h1{
+
+  font-size: 1.5em;
+}
+
+
+p{
+font-size: 1em;
 
 }
 
 
-  .plusPopulaires{
-
-    width: 90%;
+  #search{
+    width: 100%;
+    margin: auto;
   }
-
-.more{
-  margin: auto;
-}
-
-.touslesblocksactivites{
-
-display: flex;
-flex-direction: column;
-}
-
-#footer{
-
+  
+    main{
+      max-width: 100%;
+      margin:auto;
+      display: block; 
+    }
+  
+    .lignefiltres{
+  
+      display: flex;
+     flex-wrap: wrap;
+  
+    }
+  
+    .hebergementetpopulaire{
+  
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column-reverse;
+      
+  
+    }
+  
+  .hebergement{
+  background-color: none;
+  
+  }
+  
+  
+    .plusPopulaires{
+  
+      width: 90%;
+    }
+  
+  .more{
+    margin: auto;
+  }
+  
+  .touslesblocksactivites{
+  
   display: flex;
   flex-direction: column;
-
-}
-
-
-
-}
-
+  }
+  
+  #footer{
+  
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  
+  }
+  
+  
