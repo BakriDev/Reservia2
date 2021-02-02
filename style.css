@@ -618,17 +618,19 @@ font-size: 1em;
 
 }
 
+/* debut barre de search */
+
 
   #search{
     width: 100%;
     margin: auto;
   }
   
-    main{
-      max-width: 100%;
-      margin:auto;
-      display: block; 
-    }
+
+
+
+
+  
   
     .lignefiltres{
   
@@ -637,6 +639,21 @@ font-size: 1em;
   
     }
   
+
+.touslesfiltres span{
+
+margin-bottom: 10px;
+font-size: 14px;
+    }
+
+.ligneinfo p{
+
+  display: flex;
+  align-items: baseline;
+}
+
+
+
     .hebergementetpopulaire{
   
       display: flex;
@@ -647,8 +664,8 @@ font-size: 1em;
     }
   
   .hebergement{
-  background-color: none;
-  
+  background-color:none;
+  width: 100%;
   }
   
   
@@ -665,12 +682,25 @@ font-size: 1em;
   
   display: flex;
   flex-direction: column;
+ height: 0%;
   }
   
-  #footer{
+
+.blockactivites{
+
+  width: 100%;
+  padding-bottom: 2em;
+  
+}
+
+
+
+  footer{
   
     display: flex;
-    flex-direction: column;
+    flex-flow: column;
+    width: 50em;
+    padding: 0;
   
   }
   
