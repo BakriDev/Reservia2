@@ -575,10 +575,16 @@ padding-right: 18em;
 @media screen and (max-width: 700px){
   
 
+body{
 
+  
+margin:auto ;
+
+}
   
     header{ 
       
+      display: flex;
       flex-wrap: wrap;
       position: relative;
   }
@@ -592,20 +598,28 @@ padding-right: 18em;
   #inscription{
 
     position:absolute;
-    right:-1em;
+    right:-2em;
     top:0;
   }
 
 
-  nav a:hover {
-  color: #0065FC;
-    font-weight: bold;
-    background: transparent;
-    transform: scale(1.03);
-    border-top: none;
-    border-bottom:  #0065FC;
+  nav a{
+
+margin-right: 80px;
+
+  }
+
+
+nav{
+
+display: flex;
+justify-content: space-around;
+
 }
-  
+
+
+
+ 
 
 h1{
 
@@ -618,20 +632,9 @@ font-size: 1em;
 
 }
 
-/* debut barre de search */
 
 
-  #search{
-    width: 100%;
-    margin: auto;
-  }
-  
-
-
-
-
-  
-  
+ 
     .lignefiltres{
   
       display: flex;
@@ -643,7 +646,7 @@ font-size: 1em;
 .touslesfiltres span{
 
 margin-bottom: 10px;
-font-size: 14px;
+font-size: 15px;
     }
 
 .ligneinfo p{
@@ -664,16 +667,50 @@ font-size: 14px;
     }
   
   .hebergement{
-  background-color:none;
+  background-color:white;
   width: 100%;
   }
   
   
     .plusPopulaires{
   
-      width: 90%;
+      width: 100%;
+      
     }
   
+
+    .plusPopulaires h2{
+
+      font-size: 19px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .fas.fa-chart-line{
+
+padding-left: 0;
+
+    }
+
+
+
+    .texteplusPopulaires h3 {
+
+      font-size: 1em;
+    }
+     
+      
+    .blockPopu a {
+      display: flex;
+      background-color: white;
+      border-radius: 1.3em;
+      margin: auto;
+
+
+    }
+      
+
+
   .more{
     margin: auto;
   }
