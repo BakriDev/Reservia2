@@ -556,6 +556,16 @@ text-decoration: none;
 }
 
 
+#buttontext{
+
+  visibility: visible;
+}
+
+
+#loupe{
+
+  visibility: hidden;
+}
 
 
 .aPropos{
@@ -574,6 +584,21 @@ padding-right: 18em;
 
 @media screen and (max-width: 700px){
   
+
+
+  #buttontext{
+
+    visibility: hidden;
+  }
+  
+  
+  #loupe{
+  
+    visibility: visible;
+  }
+
+
+
 
 body{
 
@@ -617,7 +642,15 @@ justify-content: space-around;
 
 }
 
+nav a:hover
+{
 
+color: #0065FC;
+font-weight: bold;
+background: transparent;
+transform: scale(1.03);
+border-bottom: blue solid 2px;
+}
 
  
 
@@ -657,12 +690,15 @@ font-size: 15px;
 
 
 
+
+
+
     .hebergementetpopulaire{
   
       display: flex;
       justify-content: space-between;
       flex-direction: column-reverse;
-      
+      width: 100%;
   
     }
   
@@ -675,6 +711,8 @@ font-size: 15px;
     .plusPopulaires{
   
       width: 100%;
+      padding: 1em;
+      border-radius: 0;
       
     }
   
@@ -705,6 +743,7 @@ padding-left: 0;
       background-color: white;
       border-radius: 1.3em;
       margin: auto;
+      margin-bottom: 15px;
 
 
     }
@@ -713,13 +752,17 @@ padding-left: 0;
 
   .more{
     margin: auto;
+    width: 16em;
+    padding-top: 15px;
   }
   
   .touslesblocksactivites{
   
   display: flex;
   flex-direction: column;
- height: 0%;
+  height: 0%;
+  margin-bottom: 0px;
+  margin-right: 0px;
   }
   
 
@@ -730,6 +773,28 @@ padding-left: 0;
   
 }
 
+
+
+.activitesimage {
+
+  height: 150px;
+  object-fit: cover;
+  border-radius: 1.25rem 1.25rem 0 0; 
+}
+
+
+.activites {
+  margin: 30px;
+
+}
+
+
+
+
+ 
+  
+
+  
 
 
   footer{
