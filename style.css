@@ -723,6 +723,22 @@ color: white;
  
 }
 
+#buttontext{
+  display: none;
+}
+
+
+.boutonrecherche {
+  background-color: #0065FC;
+  color: white;
+  border: none;
+  border-radius: 1rem 1rem 1em 1rem;
+  font-size: 1em;
+  cursor: pointer;
+  height: 3.5em;
+  font-weight: bold;
+  padding: 1rem;
+}
 
 
 
@@ -834,7 +850,7 @@ padding-left: 0;
   
     display: flex;
     flex-flow: column;
-    width: 50em;
+    width: 100%;
     padding: 0;
   
   }
